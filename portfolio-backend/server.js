@@ -9,7 +9,12 @@ const app = express();
 
 // CORS — sab origins allow karo (frontend localhost:3001 ke liye)
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:3001", "http://localhost:5173", "*"],
+  origin: [
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "http://localhost:5173",
+    "https://portfolioritikin.netlify.app"
+  ],
   credentials: true,
 }));
 
