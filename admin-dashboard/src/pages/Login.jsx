@@ -27,7 +27,7 @@ export default function Login() {
             <span className="text-white font-black text-xl">P</span>
           </div>
           <h1 className="text-2xl font-black text-white">Admin Panel</h1>
-          <p className="text-sm text-white/30 mt-1.5">Prakhar Mavi Portfolio</p>
+          <p className="text-sm text-white/30 mt-1.5">Ritik Kumar Portfolio</p>
         </div>
         <div className="bg-white/5 border border-white/[0.08] rounded-2xl p-8 space-y-4">
           <div>
